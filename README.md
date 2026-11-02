@@ -33,7 +33,9 @@ It transforms the classic Tic-Tac-Toe experience into a futuristic gaming enviro
 - 🔊 **Sound Effects:** Interactive game audio.
 - 💾 **Persistent Data:** Save player statistics locally.
 - 🌌 **Cyberpunk UI:** Futuristic neon-inspired interface.
+## 🖥️ Game Preview
 
+![Neon Cyberpunk Tic-Tac-Toe](screenshots/gameplay.png)
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
