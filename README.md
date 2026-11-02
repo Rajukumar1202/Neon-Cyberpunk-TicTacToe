@@ -120,6 +120,13 @@ Unlock achievements as you play, improve, and win matches.
 - Advanced game themes
 - Global leaderboard
 - Improved animations and effects
+- ## 🖥️ Game Preview
+
+<p align="center">
+  <img src="screenshots/gameplay.png"
+       alt="Neon Cyberpunk Tic-Tac-Toe"
+       width="700">
+</p>
 
 ## 👨‍💻 Developer
 
