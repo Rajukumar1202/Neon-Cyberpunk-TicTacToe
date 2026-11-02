@@ -1,16 +1,17 @@
+
 # 🎮 Neon Cyberpunk Tic-Tac-Toe
 
 <p align="center">
-  A futuristic Tic-Tac-Toe game built with Python and Pygame.
+  <strong>A Futuristic Tic-Tac-Toe Gaming Experience</strong>
   <br>
-  Featuring intelligent AI, neon visuals, achievements, replay system, and tournaments.
+  Built with Python and Pygame, featuring intelligent AI, neon visuals, achievements, replay system, and tournaments.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" />
-  <img src="https://img.shields.io/badge/Pygame-2.x-green" />
-  <img src="https://img.shields.io/badge/Status-Completed-success" />
-  <img src="https://img.shields.io/badge/Version-3.1-purple" />
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Pygame-2.x-green" alt="Pygame">
+  <img src="https://img.shields.io/badge/Version-3.1-purple" alt="Version">
+  <img src="https://img.shields.io/badge/Status-Completed-success" alt="Status">
 </p>
 
 ---
@@ -39,10 +40,15 @@ It transforms the classic Tic-Tac-Toe experience into a futuristic gaming enviro
 ## 🖥️ Game Preview
 
 <p align="center">
-  <img src="screenshots/gameplay.png" alt="Neon Cyberpunk Tic-Tac-Toe" width="700">
+  <img src="screenshots/gameplay.png" alt="Neon Cyberpunk Tic-Tac-Toe Gameplay" width="700">
+</p>
+
+<p align="center">
+  <em>Neon Cyberpunk Tic-Tac-Toe — Version 3.1</em>
 </p>
 
 ---
+
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
@@ -58,16 +64,19 @@ It transforms the classic Tic-Tac-Toe experience into a futuristic gaming enviro
 ```text
 Neon-Cyberpunk-TicTacToe/
 │
+├── screenshots/
+│   └── gameplay.png
+│
+├── tests/
+│   └── test_game.py
+│
 ├── main.py
 ├── game.py
 ├── ui.py
 ├── audio.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-│
-└── tests/
-    └── test_game.py
+└── .gitignore
 ```
 
 ## ⚙️ Installation & Setup
@@ -84,7 +93,7 @@ git clone https://github.com/Rajukumar1202/Neon-Cyberpunk-TicTacToe.git
 cd Neon-Cyberpunk-TicTacToe
 ```
 
-### 3. Create a virtual environment (optional)
+### 3. Create a virtual environment
 
 ```bash
 python -m venv .venv
@@ -110,6 +119,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
+---
+
 ## 🎯 AI Difficulty Levels
 
 | Level | Description |
@@ -129,13 +140,8 @@ Unlock achievements as you play, improve, and win matches.
 - Advanced game themes
 - Global leaderboard
 - Improved animations and effects
-- ## 🖥️ Game Preview
 
-<p align="center">
-  <img src="screenshots/gameplay.png"
-       alt="Neon Cyberpunk Tic-Tac-Toe"
-       width="700">
-</p>
+---
 
 ## 👨‍💻 Developer
 
