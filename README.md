@@ -1,69 +1,138 @@
-<<<<<<< HEAD
-# 🎮 Tic-Tac-Toe AI — Python Quest
+# 🎮 Neon Cyberpunk Tic-Tac-Toe
 
-A neon-themed Tic-Tac-Toe desktop game built with Python and Pygame. Play as **X** against an unbeatable computer opponent playing **O**.
+<p align="center">
+  A futuristic Tic-Tac-Toe game built with Python and Pygame.
+  <br>
+  Featuring intelligent AI, neon visuals, achievements, replay system, and tournaments.
+</p>
 
-## Features
-- Clean neon cyan and purple interface
-- Human vs AI gameplay
-- Minimax AI (the computer will never lose)
-- Scoreboard for wins, AI wins, and draws
-- New Round and Reset Scores controls
-- Separated game logic and UI code
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" />
+  <img src="https://img.shields.io/badge/Pygame-2.x-green" />
+  <img src="https://img.shields.io/badge/Status-Completed-success" />
+  <img src="https://img.shields.io/badge/Version-3.1-purple" />
+</p>
 
-## Requirements
-- Python 3.10+
-- Pygame 2.5+
+---
 
-## Run on Windows (VS Code terminal)
+## 🚀 About The Project
 
-```powershell
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-python main.py
-```
+Neon Cyberpunk Tic-Tac-Toe is a modern desktop game developed using Python and Pygame.
 
-If activation is blocked in PowerShell, open Command Prompt in VS Code and run:
+It transforms the classic Tic-Tac-Toe experience into a futuristic gaming environment with neon-inspired visuals, intelligent AI opponents, sound effects, achievements, and tournament gameplay.
 
-```bat
-.venv\Scripts\activate.bat
-```
+## ✨ Features
 
-Then install requirements and run `python main.py`.
+- 🤖 **Smart AI Opponent:** Easy, Medium, and Hard difficulty levels.
+- 🧠 **Minimax Algorithm:** Hard mode uses Minimax for optimal AI decisions.
+- 👥 **Two Player Mode:** Play with a friend.
+- 🏆 **Achievement System:** Unlock achievements through gameplay.
+- 🔄 **Replay System:** Review previous matches and moves.
+- ⚔️ **Tournament Mode:** Play Best of 3 and Best of 5.
+- 📊 **Statistics:** Track wins and match history.
+- 🔊 **Sound Effects:** Interactive game audio.
+- 💾 **Persistent Data:** Save player statistics locally.
+- 🌌 **Cyberpunk UI:** Futuristic neon-inspired interface.
 
-## How to play
-1. You play as **X** and go first.
-2. Click an empty square.
-3. The AI responds as **O**.
-4. Make three marks in a row, column, or diagonal to win.
-5. Click **NEW ROUND** to play again without clearing scores.
-6. Click **RESET SCORES** to clear the scoreboard and start fresh.
+## 🛠️ Technologies Used
 
-## How the AI works
-The AI uses the **Minimax algorithm**. It checks possible future moves and chooses the move with the best outcome. It plays optimally, so it cannot be beaten; the best possible result against it is a draw.
+| Technology | Purpose |
+|---|---|
+| Python | Core programming |
+| Pygame | Game development and UI |
+| Minimax Algorithm | AI decision-making |
+| JSON | Local data storage |
+| Git & GitHub | Version control |
 
-## Project structure
+## 📂 Project Structure
 
 ```text
-tictactoe-pygame/
+Neon-Cyberpunk-TicTacToe/
+│
 ├── main.py
 ├── game.py
 ├── ui.py
+├── audio.py
 ├── requirements.txt
 ├── README.md
-├── tests/
-└── assets/
+├── .gitignore
+│
+└── tests/
+    └── test_game.py
 ```
 
-## Learning concepts
-- Lists and indexing
-- Functions and modules
-- Classes and objects
-- Conditional logic
-- Event handling with Pygame
-- Recursion and the Minimax algorithm
-=======
-# Neon-Cyberpunk-TicTacToe
-A futuristic Tic-Tac-Toe game built with Python and Pygame, featuring Minimax AI, achievements, replay and tournaments.
->>>>>>> 4cf8282d9ab7f423b9d7fa4f75c44a2caa1855af
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Rajukumar1202/Neon-Cyberpunk-TicTacToe.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd Neon-Cyberpunk-TicTacToe
+```
+
+### 3. Create a virtual environment (optional)
+
+```bash
+python -m venv .venv
+```
+
+### 4. Activate the environment
+
+**Windows:**
+
+```bash
+.venv\Scripts\activate
+```
+
+### 5. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Run the game
+
+```bash
+python main.py
+```
+
+## 🎯 AI Difficulty Levels
+
+| Level | Description |
+|---|---|
+| Easy | Beginner-friendly opponent |
+| Medium | Moderate challenge |
+| Hard | Minimax-based optimal opponent |
+
+## 🏆 Achievement System
+
+Unlock achievements as you play, improve, and win matches.
+
+## 🔮 Future Improvements
+
+- Online multiplayer mode
+- More AI personalities
+- Advanced game themes
+- Global leaderboard
+- Improved animations and effects
+
+## 👨‍💻 Developer
+
+**Raju Kumar**
+
+B.Tech Computer Science & Engineering | AI/ML Enthusiast
+
+- GitHub: [@Rajukumar1202](https://github.com/Rajukumar1202)
+
+---
+
+<p align="center">
+  ⭐ If you like this project, consider giving it a star!
+  <br>
+  Built with ❤️ using Python and Pygame.
+</p>
