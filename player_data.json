@@ -1,0 +1,72 @@
+{
+    "total_matches": 11,
+    "wins_X": 3,
+    "wins_O": 0,
+    "draws": 8,
+    "ai_wins": 3,
+    "total_wins": 3,
+    "current_streak": 0,
+    "best_streak": 3,
+    "last_winner": null,
+    "unlocked": [
+        "First Victory",
+        "Winning Streak"
+    ],
+    "match_history": [
+        {
+            "winner": "Draw",
+            "mode": "AI",
+            "difficulty": "Hard"
+        },
+        {
+            "winner": "X",
+            "mode": "AI",
+            "difficulty": "Easy"
+        },
+        {
+            "winner": "X",
+            "mode": "AI",
+            "difficulty": "Easy"
+        },
+        {
+            "winner": "X",
+            "mode": "AI",
+            "difficulty": "Easy"
+        },
+        {
+            "winner": "Draw",
+            "mode": "AI",
+            "difficulty": "Medium"
+        },
+        {
+            "winner": "Draw",
+            "mode": "AI",
+            "difficulty": "Medium"
+        },
+        {
+            "winner": "Draw",
+            "mode": "AI",
+            "difficulty": "Hard"
+        },
+        {
+            "winner": "Draw",
+            "mode": "AI",
+            "difficulty": "Hard"
+        },
+        {
+            "winner": "Draw",
+            "mode": "AI",
+            "difficulty": "Hard"
+        },
+        {
+            "winner": "Draw",
+            "mode": "AI",
+            "difficulty": "Hard"
+        },
+        {
+            "winner": "Draw",
+            "mode": "AI",
+            "difficulty": "Hard"
+        }
+    ]
+}
