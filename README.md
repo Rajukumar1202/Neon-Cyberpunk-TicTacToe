@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎮 Tic-Tac-Toe AI — Python Quest
 
 A neon-themed Tic-Tac-Toe desktop game built with Python and Pygame. Play as **X** against an unbeatable computer opponent playing **O**.
@@ -62,3 +63,7 @@ tictactoe-pygame/
 - Conditional logic
 - Event handling with Pygame
 - Recursion and the Minimax algorithm
+=======
+# Neon-Cyberpunk-TicTacToe
+A futuristic Tic-Tac-Toe game built with Python and Pygame, featuring Minimax AI, achievements, replay and tournaments.
+>>>>>>> 4cf8282d9ab7f423b9d7fa4f75c44a2caa1855af
